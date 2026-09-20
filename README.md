@@ -9,4 +9,4 @@ Spring Boot Catalog Service for CICD-1 Lab 1.
 
 Related Repository
 
-Order Service: <ORDER-REPOSITORY-LINK>
+Order Service: [<ORDER-REPOSITORY-LINK>](https://github.com/c0nor-S/CI-CD-Order-Service)
