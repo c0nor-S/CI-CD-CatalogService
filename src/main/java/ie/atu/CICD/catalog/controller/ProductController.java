@@ -1,6 +1,7 @@
 package ie.atu.CICD.catalog.controller;
 
 import ie.atu.CICD.catalog.model.Product;
+import ie.atu.CICD.catalog.repository.CategoryRepository;
 import ie.atu.CICD.catalog.service.ProductService;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,11 +19,11 @@ public class ProductController {
 
     @GetMapping
     public List<Product> getProducts() {
-        return productService.getAll();
+        return productService.getAllProducts();
     }
     @PostMapping
-    public Product createProduct(@RequestBody Product product) {
-        return productService.create(product);
+    public Product CreateProductRequest(@RequestBody CreateProductRequest request) {
+        return productService.createProduct(request);
     }
 
     @GetMapping("/{id}")
