@@ -1,5 +1,6 @@
 package ie.atu.CICD.catalog.controller;
 
+import ie.atu.CICD.catalog.dto.CreateProductRequest;
 import ie.atu.CICD.catalog.model.Product;
 import ie.atu.CICD.catalog.repository.CategoryRepository;
 import ie.atu.CICD.catalog.service.ProductService;
